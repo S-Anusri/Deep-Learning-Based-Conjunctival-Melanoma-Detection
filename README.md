@@ -1,8 +1,10 @@
 # Deep-Learning-Based-Conjunctival-Melanoma-Detection
 
 **References of research papers used:**
-Adopting low-shot deep learning for the detection of conjunctival melanoma using ocular surface images: (Tae Keun Yoo, et al. - 2023)
-Deep Learning-Based Conjunctival Melanoma Detection Using Ocular Surface Images: (Kanchon Kanti Podder et al. - 2021)
+1. Adopting low-shot deep learning for the detection of conjunctival melanoma using ocular surface images: (Tae Keun Yoo, et al. - 2023)
+
+
+2. Deep Learning-Based Conjunctival Melanoma Detection Using Ocular Surface Images: (Kanchon Kanti Podder et al. - 2021)
 
 
 **Dataset source: ** http://dx.doi.org/10.17632/t75wjsw6bw  (images were verified by ophthalmologists) 
