@@ -9,17 +9,24 @@
 
 **Dataset source: ** http://dx.doi.org/10.17632/t75wjsw6bw  (images were verified by ophthalmologists) 
 
+Input dataset: Eye images (Ocular Surface Images)
+
 
 
 This is a project implemented as part of Semester 8, for the Deep Learning Elective course (during my Integrated MTech course).
 
-Input dataset: Eye images (Ocular Surface Images)
+
+
 Four main categories of images in dataset: Normal Conjunctiva (96 images), Pterygium (75 images), Nevus (86 images) and Conjunctival Melanoma (139 images)
 
 Due to the small size of dataset, 4 different data augmentation techniques were applied to increase the number of images in the different classes:
+
 Random rotation                              (+20 to -20 degree range)
+
 Random affine transformation      (degree = 0, translate range = (0.05, 0.15), scaling range = (0.9, 0.95))
+
 Padding                                               (range = (0, 10), fill = (black, white), mode = (constant, edge))
+
 Color correction                                (brightness = (0, 0.2), contrast = (0, 0.2)) 
 
 
